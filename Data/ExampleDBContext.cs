@@ -4,6 +4,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace EntityFramework.Data
+
+// Created using:   
+// dotnet ef dbcontext scaffold "Server=localhost\SQLEXPRESS;Database=ExampleDB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer --context-dir "Data" -o "Data"  -c "ExampleDBContext" --use-database-names -f
+
+
+
 {
     public partial class ExampleDBContext : DbContext
     {
